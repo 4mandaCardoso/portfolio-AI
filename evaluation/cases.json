@@ -1,0 +1,8 @@
+[
+ {"query":"literatura museu Jorge Amado","relevant":["jorge-amado"]},
+ {"query":"comida restaurante almoço","relevant":["vesuvio"]},
+ {"query":"artesanato compras lembranças","relevant":["mercado"]},
+ {"query":"paisagem orla fotografia","relevant":["cristo"]},
+ {"query":"arte teatro cultura","relevant":["teatro"]},
+ {"query":"histórias literatura Bataclan","relevant":["bataclan"]}
+]

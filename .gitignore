@@ -1,0 +1,10 @@
+.env
+.venv/
+.venv-llm/
+.venv-render/
+.model-cache/
+__pycache__/
+*.pyc
+runtime/
+evaluation/results.json
+.DS_Store

@@ -1,0 +1,39 @@
+{
+  "status": "trained",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "base_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "method": "Supervised fine-tuning with native LoRA on q_proj/v_proj",
+  "rank": 8,
+  "alpha": 16,
+  "targets": [
+    "q_proj",
+    "v_proj"
+  ],
+  "trainable_parameters": 540672,
+  "total_parameters_with_adapter": 494573440,
+  "optimizer_steps": 24,
+  "learning_rate": 0.0002,
+  "gradient_accumulation": 2,
+  "seed": 42,
+  "max_length": 192,
+  "train_examples": 48,
+  "eval_examples": 8,
+  "eval_loss_before": 3.068606620464685,
+  "eval_loss_after": 2.6760548033804263,
+  "elapsed_seconds": 70.06,
+  "device": "cpu",
+  "threads": 4,
+  "torch_version": "2.15.0+cpu",
+  "transformers_version": "5.23.0",
+  "dtype": "float32",
+  "trained_at": "2026-11-17T17:37:31.635598+00:00",
+  "dataset_origin": "Synthetic author-created Portuguese examples; no private user chats.",
+  "train_sha256": "97e889a16a53684ea515214c9d4fdc2c6d4bbb61f7dcd221e92152736988093f",
+  "eval_sha256": "e775989df9f29a1bc5011ba2c27f81b9b74de04c425d99de781ad78273347ef9",
+  "limitations": [
+    "Small multilingual base; Portuguese domain adaptation is limited and generated answers still contain inaccuracies.",
+    "Small synthetic evaluation with related topics; not an independent quality benchmark.",
+    "Lower teacher-forced loss is not proof of factual correctness or better user experience."
+  ],
+  "revision_metadata_source": "Commit resolved from the isolated Hugging Face cache refs/main used in this run."
+}

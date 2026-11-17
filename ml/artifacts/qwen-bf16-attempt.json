@@ -1,0 +1,1 @@
+{"status":"interrupted_before_optimizer_steps","model":"Qwen/Qwen2.5-0.5B-Instruct","dtype":"bfloat16","reason":"Baixa velocidade de operações BF16 na CPU disponível; nenhuma atualização do otimizador foi registrada. Nova execução em float32.","optimizer_steps":0,"not_a_trained_checkpoint":true}

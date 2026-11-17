@@ -1,0 +1,41 @@
+{
+  "run_at": "2026-11-17T17:39:11.514852+00:00",
+  "mode": "deterministic_local_template",
+  "cases": [
+    {
+      "idea": "Um sistema de reservas para uma pousada",
+      "output": "plano-01.md",
+      "seconds": 0.000554,
+      "validated": true
+    },
+    {
+      "idea": "Um sistema de estoque de produtos",
+      "output": "plano-02.md",
+      "seconds": 0.000519,
+      "validated": true
+    },
+    {
+      "idea": "Um planejador de roteiros de turismo",
+      "output": "plano-03.md",
+      "seconds": 0.00045,
+      "validated": true
+    },
+    {
+      "idea": "Uma ferramenta de tarefas pessoais",
+      "output": "plano-04.md",
+      "seconds": 0.000435,
+      "validated": true
+    },
+    {
+      "idea": "Um sistema de chamados de atendimento",
+      "output": "plano-05.md",
+      "seconds": 0.000427,
+      "validated": true
+    }
+  ],
+  "total_seconds": 0.002406,
+  "files_generated": 5,
+  "manual_baseline_seconds": null,
+  "real_hours_saved": null,
+  "scope": "Execução local de cinco exemplos sintéticos. Não mede tempo de trabalho humano nem uso por terceiros."
+}

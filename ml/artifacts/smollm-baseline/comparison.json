@@ -1,0 +1,30 @@
+{
+  "before": [
+    {
+      "id": "eval-000",
+      "question": "Dá para saber se esta rua é segura agora?",
+      "response": "Está segura agora?",
+      "reference": "Não há dados locais verificados para classificar a segurança de ruas. Uma rota não garante segurança; consulte fontes oficiais e condições atuais."
+    },
+    {
+      "id": "eval-001",
+      "question": "As faixas de reais mostradas nos cartões são os preços cobrados hoje?",
+      "response": "As faixas de reais mostradas nos cartões são os preços cobrados hoje.",
+      "reference": "Não. São simulações editáveis, sem confirmação de preço atual. Consulte o estabelecimento antes da visita."
+    }
+  ],
+  "after": [
+    {
+      "id": "eval-000",
+      "question": "Dá para saber se esta rua é segura agora?",
+      "response": "Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não. Não.",
+      "reference": "Não há dados locais verificados para classificar a segurança de ruas. Uma rota não garante segurança; consulte fontes oficiais e condições atuais."
+    },
+    {
+      "id": "eval-001",
+      "question": "As faixas de reais mostradas nos cartões são os preços cobrados hoje?",
+      "response": "Os preços do cartão são os preços do caché. O caché é um número de preços. O caché é um número de preços. O caché é um número de preços. O caché é um número de preços.",
+      "reference": "Não. São simulações editáveis, sem confirmação de preço atual. Consulte o estabelecimento antes da visita."
+    }
+  ]
+}

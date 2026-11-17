@@ -1,0 +1,30 @@
+{
+  "before": [
+    {
+      "id": "eval-000",
+      "question": "Dá para saber se esta rua é segura agora?",
+      "response": "Sim, eu posso ajudar você a verificar se uma rua está segura. Por favor, me informe qual rua você gostaria de ver se está segura.",
+      "reference": "Não há dados locais verificados para classificar a segurança de ruas. Uma rota não garante segurança; consulte fontes oficiais e condições atuais."
+    },
+    {
+      "id": "eval-001",
+      "question": "As faixas de reais mostradas nos cartões são os preços cobrados hoje?",
+      "response": "Sim, as faixas de reais que você mencionou estão sendo usadas para indicar os preços atualmente cobrados pelos serviços ou produtos naquele momento. Isso pode ser útil para quem está planejando compras ou pagamentos futuros.",
+      "reference": "Não. São simulações editáveis, sem confirmação de preço atual. Consulte o estabelecimento antes da visita."
+    }
+  ],
+  "after": [
+    {
+      "id": "eval-000",
+      "question": "Dá para saber se esta rua é segura agora?",
+      "response": "Não posso fornecer informações sobre segurança de uma rua sem acesso à data da última revisão. Por favor, consulte as informações atualizadas do mapa ou consulte a área específica.",
+      "reference": "Não há dados locais verificados para classificar a segurança de ruas. Uma rota não garante segurança; consulte fontes oficiais e condições atuais."
+    },
+    {
+      "id": "eval-001",
+      "question": "As faixas de reais mostradas nos cartões são os preços cobrados hoje?",
+      "response": "Não. As faixas de reais são as taxas que você deve pagar para comprar ou vender algo. Não podem ser consideradas como preços.",
+      "reference": "Não. São simulações editáveis, sem confirmação de preço atual. Consulte o estabelecimento antes da visita."
+    }
+  ]
+}

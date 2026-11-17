@@ -1,0 +1,37 @@
+{
+  "status": "trained",
+  "base_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "base_revision": null,
+  "method": "Supervised fine-tuning with native LoRA on q_proj/v_proj",
+  "rank": 8,
+  "alpha": 16,
+  "targets": [
+    "q_proj",
+    "v_proj"
+  ],
+  "trainable_parameters": 460800,
+  "total_parameters_with_adapter": 134975808,
+  "optimizer_steps": 48,
+  "learning_rate": 0.0008,
+  "gradient_accumulation": 2,
+  "seed": 42,
+  "max_length": 256,
+  "train_examples": 48,
+  "eval_examples": 8,
+  "eval_loss_before": 3.2874371313712967,
+  "eval_loss_after": 2.6931437203581905,
+  "elapsed_seconds": 97.75,
+  "device": "cpu",
+  "threads": 4,
+  "torch_version": "2.15.0+cpu",
+  "transformers_version": "5.23.0",
+  "trained_at": "2026-11-17T17:28:49.247710+00:00",
+  "dataset_origin": "Synthetic author-created Portuguese examples; no private user chats.",
+  "train_sha256": "97e889a16a53684ea515214c9d4fdc2c6d4bbb61f7dcd221e92152736988093f",
+  "eval_sha256": "e775989df9f29a1bc5011ba2c27f81b9b74de04c425d99de781ad78273347ef9",
+  "limitations": [
+    "Base model is primarily English; Portuguese quality is limited.",
+    "Small synthetic evaluation with related topics; not an independent quality benchmark.",
+    "Lower teacher-forced loss is not proof of factual correctness or better user experience."
+  ]
+}

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: amanda-portfolio-prototipos
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-render.txt
+    startCommand: uvicorn backend.webapp:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /api/health
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: RECOMMENDER
+        value: keyword
+      - key: ENABLE_REMOTE_LLM
+        value: "false"
+      - key: ENABLE_TRAINED_LLM
+        value: "false"

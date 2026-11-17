@@ -1,0 +1,13 @@
+{
+  "request": {
+    "project": "brief",
+    "message": "O que o BuildBrief faz?"
+  },
+  "status": 200,
+  "response": {
+    "reply": "BuildBrief cria planilhas de reservas para facilitar a organização de tarefas.",
+    "mode": "trained",
+    "suggestions": [],
+    "actions": []
+  }
+}
